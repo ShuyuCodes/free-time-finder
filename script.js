@@ -262,10 +262,12 @@ form.addEventListener("submit", function (event) {
         );
 
 
-        const messageLines = [
-            `Shared free time for ${selectedDate}`,
-            ""
-        ];
+        // const messageLines = [
+        //     `Shared free time for ${selectedDate}`,
+        //     ""
+        // ];
+        
+        const messageLines = [`🐝 Shared free time for ${selectedDate}`, ""];
 
         if (sharedPeriods.length === 0) {
             messageLines.push("No overlapping free time found.");
