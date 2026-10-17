@@ -359,7 +359,7 @@ copyButton.addEventListener("click", async function () {
 
     try {
         await navigator.clipboard.writeText(shareMessage);
-        copyStatus.textContent = "Copied! You can now send it to Shuyu.";
+        copyStatus.textContent = "Copied! You can now send it to Shuyu.🐝";
     } catch (error) {
         copyStatus.textContent =
             "Copy failed. Please open the page in a secure context and try again.";
