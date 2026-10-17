@@ -324,7 +324,7 @@ form.addEventListener("submit", function (event) {
             <p>Free time (China time):</p>
             ${formatPeriods(shuyuAbsolute, CHINA_ZONE)}
 
-            <h3>Shared Free Time 🤝</h3>
+            <h3>Shared Free Time 🐝</h3>
             ${
                 sharedPeriods.length === 0
                     ? "<p>No overlapping free time on this date. Try another date or adjust the schedules.</p>"
